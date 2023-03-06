@@ -50,9 +50,15 @@ class View {
 
     showNothing() {
         this.reposList.innerHTML = 'По Вашему запросу ничего не найдено';
+<<<<<<< HEAD
         // const nothing = this.createElement('li', 'repo-prev');
         // nothing.textContent = "По Вашему запросу ничего не найдено";
         // this.reposList.append(nothing);
+=======
+//         const nothing = this.createElement('li', 'repo-prev');
+//         nothing.textContent = "По Вашему запросу ничего не найдено";
+//         this.reposList.append(nothing);
+>>>>>>> 069a13bed6714b2aa682bc4dff219ffa2f1fa54c
     }
 
     showError() {
