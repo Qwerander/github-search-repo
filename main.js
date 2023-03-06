@@ -49,6 +49,7 @@ class View {
     }
 
     showNothing() {
+        this.reposList.innerHTML = '';
         const nothing = this.createElement('li', 'repo-prev');
         nothing.textContent = "По Вашему запросу ничего не найдено";
         this.reposList.append(nothing);
@@ -108,7 +109,7 @@ class Search {
                 this.view.createRepo(repo);
             })
         } else {
-            this.view.reposList.innerHTML = '';
+        
             this.view.showNothing()
         }
     }
