@@ -49,10 +49,10 @@ class View {
     }
 
     showNothing() {
-        this.reposList.innerHTML = '';
-        const nothing = this.createElement('li', 'repo-prev');
-        nothing.textContent = "По Вашему запросу ничего не найдено";
-        this.reposList.append(nothing);
+        this.reposList.innerHTML = 'По Вашему запросу ничего не найдено';
+        // const nothing = this.createElement('li', 'repo-prev');
+        // nothing.textContent = "По Вашему запросу ничего не найдено";
+        // this.reposList.append(nothing);
     }
 
     showError() {
