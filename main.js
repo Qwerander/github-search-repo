@@ -108,6 +108,7 @@ class Search {
                 this.view.createRepo(repo);
             })
         } else {
+            this.view.reposList.innerHTML = '';
             this.view.showNothing()
         }
     }
